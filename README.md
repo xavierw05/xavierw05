@@ -1,4 +1,5 @@
 # 👤 Profile
+<img src="https://i.imgur.com/6FshBBs.png" width="100" style="border-radius;" />
 Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, studying Geography, Spatial Planning, and Environmental Studies, with interests in GIS and applied Geomatics.
 
 ## 💻 Specialties 
@@ -17,7 +18,7 @@ Indonesian undergraduate student at the University of Toulouse – Jean Jaurès,
 ![🇮🇩 Indonesian](https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%A9%20Indonesian-DA251D?style=for-the-badge)
 
 # 🗂️ Portfolio
-A collection of geospatial analyses and mapping projects focused on analyzing real-world issues such as natural disasters, socio-demographic inequalities, and spatial disparities across diverse regions worldwide.
+A collection of geospatial analyses and mapping projects focused on analyzing real-world issues, which include natural disasters, socio-demographic inequalities, and spatial disparities across diverse regions worldwide.
 #### Overview
 - [North America](#north-america)
 ## North America
