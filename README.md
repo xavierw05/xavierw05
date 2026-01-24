@@ -24,7 +24,12 @@ A collection of my geospatial analyses and mapping projects, focusing on real-wo
 
 ## North America
 North America, the third-largest continent, spans around 24.7 million square kilometers, encompassing Canada, the United States, and Mexico. It extends from the northern Arctic tundra to the southern tropical regions. This continent experiences prominent natural factors that coincide with its population's distribution. I chose to start with this region because of its environmental and demographic diversity, ranging from remote natural wilderness to densely populated urban metropolises.
+    
 ### Natural Disasters
+<p align="center">
+  <img src="CONUSAK.png" alt="North America Map" width="800">
+</p>
+
 #### Wildfires
 #### Tornadoes
 
