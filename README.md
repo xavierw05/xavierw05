@@ -27,7 +27,7 @@ North America, the third-largest continent, spans around 24.7 million square kil
 
 ### Biomes
 <p align="center">
-    <img src="BIOMES_NA.PNG" alt="North America Biomes" width="500">
+    <img src="BIOMES_NA.PNG" alt="North America Biomes" width="600">
   <br>
   <em>Figure 1.a</em>
 </p>
@@ -36,7 +36,7 @@ I developed this map first to illustrate North America’s principal biomes usin
 
 ### Wildfires
 <p align="center">
-    <img src="CONUSAK.png" alt="CONUS AK Wildfires" width="500">
+    <img src="CONUSAK.png" alt="CONUS AK Wildfires" width="600">
   <br>
   <em>Figure 2.a</em>
 </p>
@@ -63,9 +63,10 @@ In this map, I visualized vegetation cover across the United States, highlightin
 
 ### Tornadoes
 <p align="center">
-    <img src="CONUS_Tornadoes.PNG" alt="CONUS Tornadoes" width="500">
+    <img src="CONUS_Tornadoes.PNG" alt="CONUS Tornadoes" width="600">
   <br>
   <em>Figure 3.a</em>
 </p>
+This map visualizes tornado occurrences across the continental U.S. alongside population density, highlighting the correlation between meteorology and human geography. Tornado points are heavily concentrated in the Tornado Alley, roughly stretching northward from northern Texas to the Dakotas, and northeastward to Illinois. Furthermore, numerous tornado initial points also occur in the Dixie Alley, roughly spanning from Louisiana to Alabama. Tornadoes are also widely present in high-population areas, including eastern Texas, Tennessee, Alabama, and Georgia, emphasizing that major metropolitan territories are not immune to tornado hazards.
 
 ### Demographics
