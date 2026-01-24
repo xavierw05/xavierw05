@@ -32,8 +32,7 @@ North America, the third-largest continent, spans around 24.7 million square kil
   <em>Figure 1.a</em>
 </p>
 
-### Natural Disasters
-#### Wildfires
+### Wildfires
 <p align="center">
     <img src="CONUSAK.png" alt="CONUS AK Wildfires" width="500">
   <br>
@@ -58,7 +57,7 @@ North America, the third-largest continent, spans around 24.7 million square kil
   <em>Figure 2.d</em>
 </p>
 
-#### Tornadoes
+### Tornadoes
 <p align="center">
     <img src="CONUS_Tornadoes.PNG" alt="CONUS Tornadoes" width="500">
   <br>
