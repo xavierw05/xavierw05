@@ -32,6 +32,8 @@ North America, the third-largest continent, spans around 24.7 million square kil
   <em>Figure 1.a</em>
 </p>
 
+I developed this map first to illustrate North America's principal biomes using Level I Ecoregion data, providing environmental context for the continent's natural systems and demographic patterns. The continent includes a wide range of biomes. Firstly, the Arctic Cordillera and tundra dominate the far north, with cold, arid polar conditions, while Canada's expansive boreal forests exist under subarctic climates. Secondly, the northeastern United States is characterized by eastern temperate forests, and the central Great Plains feature grasslands across semi-arid to temperate climatic zones. Thirdly, western regions include Pacific coastal forests with marine climates, mountainous northwestern forests spanning multiple elevations, and California's Mediterranean zone. Lqstly, the Southwest features hot, dry deserts, while southern Mexico hosts tropical wet-dry forests, temperate mountain ranges, and semi-arid plateau regions.
+
 ### Wildfires
 <p align="center">
     <img src="CONUSAK.png" alt="CONUS AK Wildfires" width="500">
