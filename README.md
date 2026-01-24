@@ -1,6 +1,6 @@
 # 👤 Profile
 <img src="https://i.imgur.com/6FshBBs.png" width="100" style="border-radius;" />
-I am an Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, where I study Geography, Spatial Planning, and Environmental Studies. My interests include geomatics, GIS, and spatial data analysis.
+My name is Xavier William, I am an Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, where I study Geography, Spatial Planning, and Environmental Studies. My interests include geomatics, GIS, and spatial data analysis.
 
 ## 💻 Specialties 
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=for-the-badge&logo=google-earth&logoColor=white)
