@@ -1,6 +1,6 @@
 # 👤 Profile
 <img src="https://i.imgur.com/6FshBBs.png" width="100" style="border-radius;" />
-Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, studying Geography, Spatial Planning, and Environmental Studies, with interests in Geomatics, GIS, and spatial data analysis.
+I am an Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, where I study Geography, Spatial Planning, and Environmental Studies. My interests include geomatics, GIS, and spatial data analysis.
 
 ## 💻 Specialties 
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=for-the-badge&logo=google-earth&logoColor=white)
@@ -18,7 +18,7 @@ Indonesian undergraduate student at the University of Toulouse – Jean Jaurès,
 ![🇮🇩 Indonesian](https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%A9%20Indonesian-DA251D?style=for-the-badge)
 
 # 🗂️ Portfolio
-A collection of geospatial analyses and mapping projects focused on analyzing real-world issues, which include natural disasters, socio-demographic inequalities, and spatial disparities across diverse regions worldwide.
+A collection of my geospatial analyses and mapping projects, focusing on real-world challenges such as natural disasters, socio-demographic inequalities, and other spatial disparities across different regions worldwide, using data from a variety of governmental and organizational sources.
 #### Overview
 - [North America](#north-america)
 ## North America
@@ -26,6 +26,5 @@ A collection of geospatial analyses and mapping projects focused on analyzing re
 ### Natural Disasters
 #### Wildfires
 #### Tornadoes
-#### Hurricanes
-#### Blizzards
+
 ### Demographics
