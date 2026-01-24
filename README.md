@@ -25,37 +25,44 @@ A collection of my geospatial analyses and mapping projects, focusing on real-wo
 ## North America
 North America, the third-largest continent, spans around 24.7 million square kilometers, encompassing Canada, the United States, and Mexico. It extends from the northern Arctic tundra to the southern tropical regions. This continent experiences prominent natural factors that coincide with its population's distribution. I chose to start with this region because of its environmental and demographic diversity, ranging from remote natural wilderness to densely populated urban metropolises.
 
+### Biomes
+<p align="center">
+    <img src="BIOMES_NA.PNG" alt="North America Biomes" width="500">
+  <br>
+  <em>Figure 1.a</em>
+</p>
+
 ### Natural Disasters
 #### Wildfires
 <p align="center">
     <img src="CONUSAK.png" alt="CONUS AK Wildfires" width="500">
   <br>
-  <em>Figure 1.a</em>
+  <em>Figure 2.a</em>
 </p>
 
 <p align="left">
     <img src="CA.png" alt="CA Wildfires" width="350">
   <br>
-  <em>Figure 1.b</em>
+  <em>Figure 2.b</em>
 </p>
 
 <p align="left">
     <img src="OR.png" alt="OR Wildfires" width="350">
   <br>
-  <em>Figure 1.c</em>
+  <em>Figure 2.c</em>
 </p>
 
 <p align="left">
     <img src="WA.png" alt="WA Wildfires" width="350">
   <br>
-  <em>Figure 1.c</em>
+  <em>Figure 2.d</em>
 </p>
 
 #### Tornadoes
 <p align="center">
     <img src="CONUS_Tornadoes.PNG" alt="CONUS Tornadoes" width="500">
   <br>
-  <em>Figure 2.a</em>
+  <em>Figure 3.a</em>
 </p>
 
 ### Demographics
