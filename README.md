@@ -65,10 +65,16 @@ In this map, I visualized vegetation cover across the United States, highlightin
 
 #### Tornadoes
 <p align="center">
-    <img src="CONUS_Tornadoes.PNG" alt="CONUS Tornadoes" width="600">
+    <img src="CONUS_Points.png" alt="Tornado Points" width="600">
   <br>
   <em>Figure 3.a</em>
 </p>
-This map visualizes tornado occurrences across the continental U.S. alongside population density, highlighting the correlation between meteorology and human geography. Tornado points are heavily concentrated in the Tornado Alley, roughly stretching northward from northern Texas to the Dakotas, and northeastward to Illinois. Furthermore, numerous tornado initial points also occur in the Dixie Alley, roughly spanning from Louisiana to Alabama. Tornadoes are also widely present in high-population areas, including eastern Texas, Tennessee, Alabama, and Georgia, emphasizing that major metropolitan territories are not immune to tornado hazards.
+
+<p align="center">
+    <img src="CONUS_Tracks.png" alt="Tornado Tracks" width="600">
+  <br>
+  <em>Figure 3.b</em>
+</p>
+
 
 ### Demographics
