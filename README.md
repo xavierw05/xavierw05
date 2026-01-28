@@ -76,5 +76,28 @@ In this map, I visualized vegetation cover across the United States, highlightin
   <em>Figure 3.b</em>
 </p>
 
+<p align="left">
+    <img src="tor_bar_1.PNG" alt="Tornado States" width="350">
+  <br>
+  <em>Figure 3.c</em>
+</p>
+
+<p align="left">
+    <img src="tor_bar_2.PNG" alt="Tornado States" width="350">
+  <br>
+  <em>Figure 3.d</em>
+</p>
+
+<p align="left">
+    <img src="tor_prop_1.PNG" alt="Tornado Proportion" width="350">
+  <br>
+  <em>Figure 3.e</em>
+</p>
+
+<p align="left">
+    <img src="tor_prop_2.PNG" alt="Tornado Proportion" width="350">
+  <br>
+  <em>Figure 3.f</em>
+</p>
 
 ### Demographics
