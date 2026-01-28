@@ -83,7 +83,7 @@ In this map, I visualized vegetation cover across the United States, highlightin
 </p>
 
 <p align="left">
-    <img src="tor_bar_2.PNG" alt="Tornado States" width="350">
+    <img src="tor_bar_2.png" alt="Tornado States" width="350">
   <br>
   <em>Figure 3.d</em>
 </p>
@@ -95,7 +95,7 @@ In this map, I visualized vegetation cover across the United States, highlightin
 </p>
 
 <p align="left">
-    <img src="tor_prop_2.PNG" alt="Tornado Proportion" width="350">
+    <img src="tor_prop_2.png" alt="Tornado Proportion" width="350">
   <br>
   <em>Figure 3.f</em>
 </p>
