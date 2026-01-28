@@ -65,13 +65,13 @@ In this map, I visualized vegetation cover across the United States, highlightin
 
 #### Tornadoes
 <p align="center">
-    <img src="CONUS_Points.png" alt="Tornado Points" width="600">
+    <img src="tor_pts.PNG" alt="Tornado Points" width="600">
   <br>
   <em>Figure 3.a</em>
 </p>
 
 <p align="center">
-    <img src="CONUS_Tracks.png" alt="Tornado Tracks" width="600">
+    <img src="tor_tracks.PNG" alt="Tornado Tracks" width="600">
   <br>
   <em>Figure 3.b</em>
 </p>
