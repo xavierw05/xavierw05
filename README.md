@@ -1,6 +1,6 @@
 # 👤 Profile
 <img src="https://i.imgur.com/6FshBBs.png" width="100" style="border-radius;" />
-My name is Xavier William, I am an Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, where I study Geography, Spatial Planning, and Environmental Studies. My interests include geomatics, GIS, and spatial data analysis.
+My name is Xavier William, I am an Indonesian undergraduate student at the University of Toulouse – Jean Jaurès, where I study Geography, Spatial Planning, and Environmental Studies. My interests include geomatics, GIS, and geospatial data analysis.
 
 ## 💻 Specialties 
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=for-the-badge&logo=google-earth&logoColor=white)
@@ -18,7 +18,7 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 ![🇮🇩 Indonesian](https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%A9%20Indonesian-DA251D?style=for-the-badge)
 
 # 🗂️ Portfolio
-A collection of my geospatial analyses and mapping projects, focusing on real-world challenges such as natural disasters, socio-demographic inequalities, and other spatial disparities across different regions worldwide, using data from a variety of governmental and organizational sources.
+A collection of geospatial projects focused on identifying environmental and socio-economic disparities across different territories, in order to visualize how they reflect pertinent global issues. This portfolio includes maps and analytical diagrams created to document my GIS skills, experiment a variety of methods, and build a personal reference for future projects.
 #### Overview
 - [North America](#north-america)
 
