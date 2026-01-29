@@ -95,9 +95,30 @@ In this map, I visualized vegetation cover across the United States, highlightin
   </tr>
 </table>
 
-<p align="left">
-    <img src="tor_prop_2.png" alt="Tornado Proportion" width="350">
-  <br>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+        <p align="center">
+      <img src="tor_prop_1.png" alt="Tornado States Bar Chart 2" width="80%">
+        <p align="center">
+    <td width="50%" valign="top">
+    text
+      <p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+        <p align="center">
+      <img src="tor_prop_2.png" alt="Tornado States Bar Chart 2" width="80%">
+        <p align="center">
+    <td width="50%" valign="top">
+    text
+      <p>
+    </td>
+  </tr>
+</table>
 
 ### Demographics
