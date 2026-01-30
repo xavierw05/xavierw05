@@ -39,18 +39,23 @@ I developed this map first to illustrate North America’s principal biomes usin
 
 In this map, I visualized vegetation cover across the United States, highlighting the transition from dense eastern forests to herbaceous landscapes extending from North Dakota to eastern Texas. The Midwest exhibits comparatively lower vegetation density, while shrublands dominate much of the West and Alaska. By overlaying wildfire perimeter polygons, the map shows that forests in the eastern U.S. remain largely undisturbed, whereas the West Coast emerges as the primary area of concern, with numerous high-complexity (Type 1) fires. This pattern unexpectedly extends into Alaska, despite its much colder climate. Secondary areas of concern include the interior western states, particularly New Mexico, Arizona, Colorado, and Idaho, where moderate to high wildfire activity is also evident. Texas displays a distinct spatial pattern, as wildfire activity in the eastern part of the state is dominated by smaller low-complexity (Type 5) fires, while northern Texas contains a prominent Type 1 fire polygon.
 
-<p align="left">
-    <img src="CA.png" alt="CA Wildfires" width="350">
+<p align="center">
+    <img src="fire_prop.png" alt="Wildfire Proportion" width="400">
   <br>
 </p>
 
-<p align="left">
-    <img src="OR.png" alt="OR Wildfires" width="350">
+<p align="center">
+    <img src="fire_events.png" alt="Wildfire Events" width="400">
   <br>
 </p>
 
-<p align="left">
-    <img src="WA.png" alt="WA Wildfires" width="350">
+<p align="center">
+    <img src="fire_surface.png" alt="Wildfire Surface" width="400">
+  <br>
+</p>
+
+<p align="center">
+    <img src="fire_percentage.png" alt="Wildfire Percentage" width="400">
   <br>
 </p>
 
