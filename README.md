@@ -22,20 +22,16 @@ A collection of geospatial projects focused on identifying environmental and soc
 #### Overview
 - [North America](#north-america)
 
-## North America
-North America, the third-largest continent, spans around 24.7 million square kilometers, encompassing Canada, the United States, and Mexico. It extends from the northern Arctic tundra to the southern tropical regions. This continent experiences prominent natural factors that coincide with its population's distribution. I chose to start with this region because of its environmental and demographic diversity, ranging from remote natural wilderness to densely populated urban metropolises.
+## United States
 
 ### Biomes
 <p align="center">
     <img src="BIOMES_NA.PNG" alt="North America Biomes" width="600">
   <br>
 </p>
-
 I developed this map first to illustrate North America’s principal biomes using Level I Ecoregion data, providing environmental context for the continent’s natural phenomena and demographic patterns. Biome boundaries are displayed alongside national administrative divisions, including Canadian provinces, U.S. states, and Mexican *estados*. The continent encompasses a wide range of biomes. Firstly, the Arctic Cordillera and tundra dominate the far north, with cold, arid polar conditions, while Canada’s expansive boreal forests exist under subarctic climates. Secondly, the northeastern United States is characterized by eastern temperate forests, and the central Great Plains feature grasslands across semi-arid to temperate climatic zones. Thirdly, western regions include Pacific coastal forests with marine climates, mountainous northwestern forests spanning multiple elevations, and California’s Mediterranean zone. Lastly, the Southwest features hot, dry deserts, while southern Mexico hosts tropical wet-dry forests, temperate mountain ranges, and semi-arid plateau regions.
 
-### United States
-
-#### Wildfires
+### Wildfires
 <p align="center">
     <img src="CONUSAK.png" alt="CONUS AK Wildfires" width="600">
   <br>
@@ -58,7 +54,7 @@ In this map, I visualized vegetation cover across the United States, highlightin
   <br>
 </p>
 
-#### Tornadoes
+### Tornadoes
 <p align="center">
     <img src="tor_pts.PNG" alt="Tornado Points" width="600">
   <br>
