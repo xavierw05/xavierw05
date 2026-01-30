@@ -4,6 +4,7 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 
 ## 💻 Specialties 
 ![Google Earth](https://img.shields.io/badge/Google%20Earth-4285F4?style=for-the-badge&logo=google-earth&logoColor=white)
+![Magrit](https://img.shields.io/badge/Magrit-00c99a?style=for-the-badge)
 ![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white)
 ![ArcGIS](https://img.shields.io/badge/ArcGIS-F57F20?style=for-the-badge&logo=arcgis&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -68,7 +69,7 @@ In this map, I visualized vegetation cover across the United States, highlightin
 </p>
 
 <p align="center">
-    <img src="tor_county.png" alt="Tornado per county" width="600">
+    <img src="tor_pts.PNG" alt="Tornado points" width="600">
   <br>
 </p>
 
