@@ -75,10 +75,10 @@ I chose tornadoes as my next primary topic to analyze the spatial distribution o
 </p>
 
 Tornado activity follows a distinct spatial pattern shaped by atmospheric circulation and topography. Hotspots develop where warm, moist air from the Gulf of Mexico interacts with cooler, drier air and strong wind shear, while activity declines sharply in the western United States due to mountainous terrain and less favorable atmospheric conditions. Tornado intensity is classified using the Enhanced Fujita (EF) scale, which ranks events from EF0 (weakest) to EF5 (strongest) based on estimated wind speeds and damage.
-* Geographic concentration: Dense clustering in Oklahoma, Kansas, Nebraska, and southeastern states (Mississippi, Alabama)
-* Western void: Minimal activity west of approximately the 100th meridian
-* Intensity distribution: EF0–EF1 events are most numerous, while stronger events are more dispersed
-* Broad eastern coverage: Activity spans roughly two-thirds of the continental U.S., primarily east of the Rocky Mountains
+* Dense clustering in Oklahoma, Kansas, Nebraska, and southeastern states (Mississippi, Alabama)
+* Minimal tornado presence in western states
+* EF0–EF1 events are most numerous, while stronger events are more dispersed
+* ctivity spans roughly two-thirds of the continental U.S., primarily east of the Rocky Mountains
 
 <br>
 
@@ -92,8 +92,6 @@ The tornado tracks show strong, consistent linearity, reflecting the steering in
 * Consistent influence of mid-latitude westerlies and cold fronts
 * Southeast territories have higher concentration of long-track events
 * Tracks sometimes form clusters, e.g., North Dakota–Minnesota and parts of the East Coast
-* Tornadoes with shorter lifespans and lower EFs sometimes emerge in western states
-
 <br>
 <p align="center">
     <img src="tor_dens.png" alt="Tornado Density" width="600">
