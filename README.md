@@ -77,7 +77,7 @@ I developed this map first to illustrate North America’s principal biomes usin
 </p>
 
 <p align="center">
-    <img src="tor_density.PNG" alt="Tornado Density" width="600">
+    <img src="tor_dens.png" alt="Tornado Density" width="600">
   <br>
 </p>
 
