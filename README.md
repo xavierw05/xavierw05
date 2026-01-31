@@ -66,20 +66,41 @@ I developed this map first to illustrate North America’s principal biomes usin
 
 ### Tornadoes
 
+I chose tornadoes as my next primary topic to analyze the spatial distribution of another major natural disaster in the United States, as it highlights the regions that are particularly vulnerable to severe weather. Tornado data were gathered from the National Oceanic and Atmospheric Administration (NOAA), whose records date back to 1950, but the analysis was limited to 2004–2024 to reflect improvements in detection technology and reporting accuracy.
+
+<br>
 <p align="center">
     <img src="tor_pts.PNG" alt="Tornado points" width="600">
   <br>
 </p>
 
+Tornado activity follows a distinct spatial pattern shaped by atmospheric circulation and topography. Hotspots develop where warm, moist air from the Gulf of Mexico interacts with cooler, drier air and strong wind shear, while activity declines sharply in the western United States due to mountainous terrain and less favorable atmospheric conditions. Tornado intensity is classified using the Enhanced Fujita (EF) scale, which ranks events from EF0 (weakest) to EF5 (strongest) based on estimated wind speeds and damage.
+* Geographic concentration: Dense clustering in Oklahoma, Kansas, Nebraska, and southeastern states (Mississippi, Alabama)
+* Western void: Minimal activity west of approximately the 100th meridian
+* Intensity distribution: EF0–EF1 events are most numerous, while stronger events are more dispersed
+* Broad eastern coverage: Activity spans roughly two-thirds of the continental U.S., primarily east of the Rocky Mountains
+
+<br>
+
 <p align="center">
     <img src="tor_tracks.PNG" alt="Tornado Tracks" width="600">
   <br>
 </p>
+This map highlights tornado movement across multiple states, showing both the typical southwest-to-northeast trajectory and variations. It was created by combining the initial and terminal points of each tornado based on their latitude and longitude. Incorporating EF levels along the full tornado tracks provides greater analytical insight than mapping them solely at the initial points, as it allows identification of regions that are more vulnerable to severe tornado impacts.
+The tornado tracks show strong, consistent linearity, reflecting the steering influence of mid-latitude westerlies and cold fronts.
 
+* Consistent influence of mid-latitude westerlies and cold fronts
+* Southeast territories have higher concentration of long-track events
+* Tracks sometimes form clusters, e.g., North Dakota–Minnesota and parts of the East Coast
+* Tornadoes with shorter lifespans and lower EFs sometimes emerge in western states
+
+<br>
 <p align="center">
     <img src="tor_dens.png" alt="Tornado Density" width="600">
   <br>
 </p>
+
+I created this kernel density map using kernel density estimation (KDE), incorporating both tornado origin points and their tracks. The estimation was also weighted by each tornado’s EF level. This dual-input approach generated a smoothed density surface that reflects not only where tornadoes form but also the areas they traverse and impact.
 
  <p align="center">
     <img src="tor_bar_1.png" alt="Tornado Bar 1" width="400">
