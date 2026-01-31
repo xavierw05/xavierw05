@@ -66,7 +66,7 @@ I developed this map first to illustrate North America’s principal biomes usin
 
 ### Tornadoes
 
-I chose tornadoes as my next primary topic to analyze the spatial distribution of another major natural disaster in the United States, as it highlights the regions that are particularly vulnerable to severe weather. Tornado data were gathered from the National Oceanic and Atmospheric Administration (NOAA), whose records date back to 1950, but the analysis was limited to 2004–2024 to reflect improvements in detection technology and reporting accuracy.
+I chose tornadoes as my next primary topic to analyze the spatial distribution of another major natural disaster in the United States, as it highlights the regions that are particularly vulnerable to severe weather. Tornado data were gathered from the National Oceanic and Atmospheric Administration (NOAA), whose records date back to 1950, but the analysis was limited to 2004 - 2024 to reflect improvements in detection technology and reporting accuracy.
 
 <br>
 <p align="center">
@@ -78,8 +78,8 @@ I chose tornadoes as my next primary topic to analyze the spatial distribution o
 Tornado activity follows a distinct spatial pattern shaped by atmospheric circulation and topography. Hotspots develop where warm, moist air from the Gulf of Mexico interacts with cooler, drier air and strong wind shear, while activity declines sharply in the western United States due to mountainous terrain and less favorable atmospheric conditions. Tornado intensity is classified using the Enhanced Fujita (EF) scale, which ranks events from EF0 (weakest) to EF5 (strongest) based on estimated wind speeds and damage.
 * Dense clustering in Oklahoma, Kansas, Nebraska, and southeastern states (Mississippi, Alabama)
 * Minimal tornado presence in western states
-* EF0–EF1 events are most numerous, while stronger events are more dispersed
-* ctivity spans roughly two-thirds of the continental U.S., primarily east of the Rocky Mountains
+* EF0 - EF1 events are most numerous, while stronger events are more dispersed
+* Points cover roughly two-thirds of the continental U.S., primarily east of the Rocky Mountains
 
 <br>
 
@@ -94,22 +94,22 @@ The tornado tracks show strong, consistent linearity, reflecting the steering in
 
 * Consistent influence of mid-latitude westerlies and cold fronts
 * Southeast territories have higher concentration of long-track events
-* Tracks sometimes form clusters, e.g., North Dakota–Minnesota and parts of the East Coast
+* Tracks sometimes form clusters, e.g., North Dakota - Minnesota and parts of the East Coast
 
 <br>
 <p align="center">
-    <img src="tor_dens.png" alt="Tornado Density" width="600">
+    <img src="tor_dens.PNG" alt="Tornado Density" width="600">
   <br>
     <em>Figure 3.c</em>
 </p>
-I created this kernel density map using kernel density estimation (KDE), incorporating both tornado initial points and their tracks. The estimation was also weighted by each tornado’s EF level. This dual-input approach generated a smoothed density surface that reflects not only where tornadoes form but also the areas they traverse and impact. For context, Tornado Alley is the central U.S. region with frequent strong tornadoes, while Dixie Alley is in the Southeast, prone to violent, long-track tornadoes.
+I created this kernel density map using kernel density estimation (KDE), incorporating both tornado initial points and their tracks. The estimation was also weighted by each tornado’s EF level. This approach produces gradual transitions in tornado density and reveals a strong east–west contrast, with the highest concentrations across the central interior of the United States and much lower densities in the mountainous and coastal regions in the western states.
 </p>
 
-* Emergence of two primary high-density tornado regions, Tornado Alley and Dixie Alley
-* Broad zone of moderate-to-high density from the Plains eastward into the Midwest and mid-South, indicating widespread but lower-intensity activity
-* Sharp drop to very low density across the western U.S. (Rockies and Pacific states) and the Northeast, highlighting strong geographic concentration of tornadoes
-  </p>
-
+* Tornady activity core is centered in the central United States and gradually expands outward into the Southeast
+* The Northeast, upper Midwest, and Florida exhibit generally low to moderate densities, with no persistent core activity
+* Very low tornado density dominates much of the western United States, particularly across mountainous and coastal regions
+* Small, localized clusters of low-level tornado density appear in parts of the western U.S.
+<br>
  <p align="center">
     <img src="tor_bar_1.png" alt="Tornado Bar 1" width="400">
      <br>
@@ -130,7 +130,7 @@ This diagram ranks the ten U.S. states with the highest tornado activity over th
     <br>
     <em>Figure 3.e</em>
 </p>
-This diagram interprets the distribution of only high-intensity tornadoes (EF3–EF5) across the United States, highlighting regional differences in severe tornado occurrence. State-level rankings were generated by filtering tornado event data in Microsoft Excel based on intensity and summing total events per state. Key observations include:
+This diagram interprets the distribution of only high-intensity tornadoes (EF3-EF5) across the United States, highlighting regional differences in severe tornado occurrence. State-level rankings were generated by filtering tornado event data in Microsoft Excel based on intensity and summing total events per state. Key observations include:
 </p>
 
 * Kansas and Texas recorded the highest number of high-intensity tornadoes, with 60 events each.
