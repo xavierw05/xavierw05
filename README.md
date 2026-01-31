@@ -64,12 +64,17 @@ In this map, I visualized vegetation cover across the United States, highlightin
 ### Tornadoes
 
 <p align="center">
+    <img src="tor_pts.PNG" alt="Tornado points" width="600">
+  <br>
+</p>
+
+<p align="center">
     <img src="tor_tracks.PNG" alt="Tornado Tracks" width="600">
   <br>
 </p>
 
 <p align="center">
-    <img src="tor_pts.PNG" alt="Tornado points" width="600">
+    <img src="tor_county.png" alt="Tornado county" width="600">
   <br>
 </p>
 
