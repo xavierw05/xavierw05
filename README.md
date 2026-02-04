@@ -27,8 +27,35 @@ A collection of geospatial projects focused on identifying environmental and soc
 ## Europe
 
 ### Warsaw - Public Transport Accessibility
-Lorem ipsun
-<br>
+<p align="center">
+    <img src="warsaw_transport_map.PNG" alt="Public Transport Map Warsaw" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="warsaw_bus.png" alt="Bus Map Warsaw" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
+  <br>
+</p>
+
+<p align="center">
+    <img src="warsaw_capacity.png" alt="Stops Capacity Comparison Warsaw" width="900">
+  <br>
+</p>
+
+<p align="center">
+    <img src="warsaw_all_transport.png" alt="All Transport Capacity Warsaw" width="600">
+  <br>
+</p>
 
 ## United States
 
