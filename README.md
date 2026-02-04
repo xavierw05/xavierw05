@@ -38,7 +38,7 @@ A collection of geospatial projects focused on identifying environmental and soc
 </p>
 
 <p align="center">
-    <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
+    <img src="warsaw_demographics.ng" alt="Demographics Warsaw" width="600">
   <br>
 </p>
 
@@ -48,12 +48,12 @@ A collection of geospatial projects focused on identifying environmental and soc
 </p>
 
 <p align="center">
-    <img src="warsaw_capacity.png" alt="Stops Capacity Comparison Warsaw" width="900">
+    <img src="warsaw_capacity.ng" alt="Stops Capacity Comparison Warsaw" width="900">
   <br>
 </p>
 
 <p align="center">
-    <img src="warsaw_all_transport.png" alt="All Transport Capacity Warsaw" width="600">
+    <img src="warsaw_all_transport.ng" alt="All Transport Capacity Warsaw" width="600">
   <br>
 </p>
 
