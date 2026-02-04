@@ -24,6 +24,12 @@ A collection of geospatial projects focused on identifying environmental and soc
 - [Wildfires](#wildfires)
 - [Tornadoes](#tornadoes)
 
+## Europe
+
+### Warsaw - Public Transport Accessibility
+Lorem ipsun
+<br>
+
 ## United States
 
 ### Biomes of North America
@@ -33,6 +39,7 @@ A collection of geospatial projects focused on identifying environmental and soc
 </p>
 I developed this map first to illustrate North America’s principal biomes using Level I Ecoregion data, providing environmental context for the continent’s natural phenomena and demographic patterns. Biome boundaries are displayed alongside national administrative divisions, including Canadian provinces, U.S. states, and Mexican *estados*. The continent encompasses a wide range of biomes. Firstly, the Arctic Cordillera and tundra dominate the far north, with cold, arid polar conditions, while Canada’s expansive boreal forests exist under subarctic climates. Secondly, the northeastern United States is characterized by eastern temperate forests, and the central Great Plains feature grasslands across semi-arid to temperate climatic zones. Thirdly, western regions include Pacific coastal forests with marine climates, mountainous northwestern forests spanning multiple elevations, and California’s Mediterranean zone. Lastly, the Southwest features hot, dry deserts, while southern Mexico hosts tropical wet-dry forests, temperate mountain ranges, and semi-arid plateau regions.
 
+---
 ### Wildfires
 <p align="center">
     <img src="conus_wf.png" alt="CONUS Wildfires" width="600">
@@ -63,6 +70,8 @@ I developed this map first to illustrate North America’s principal biomes usin
     <img src="fire_percentage.png" alt="Wildfire Percentage" width="400">
   <br>
 </p>
+
+---
 
 ### Tornadoes
 
@@ -154,5 +163,4 @@ Tornado activity is dominated by low-intensity events, with EF0 and EF1 ratings 
 </p>
 Within high-intensity tornadoes, EF3 events dominate, while EF4 and EF5 occurrences are comparatively rare. This highlights that even among severe storms, the most extreme tornadoes are uncommon, making them critical points of study for risk assessment and mitigation.
     </p>
-
-### Demographics
+<br>
