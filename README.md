@@ -21,12 +21,13 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 # 🗂️ Portfolio
 A collection of geospatial projects focused on identifying environmental and socio-economic disparities across different territories, in order to visualize how they reflect pertinent global issues. This portfolio includes maps and analytical diagrams created to document my GIS skills, experiment a variety of methods, and build a personal reference for future projects.
 #### Overview
+- [Warsaw Public Transport Accessibility](#warsaw-public-transport-accessibility)
 - [Wildfires](#wildfires)
 - [Tornadoes](#tornadoes)
 
 ## Europe
 
-### Warsaw - Public Transport Accessibility
+### Warsaw Public Transport Accessibility
 <p align="center">
     <img src="warsaw_transport_map.PNG" alt="Public Transport Map Warsaw" width="600">
   <br>
