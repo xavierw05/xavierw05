@@ -21,13 +21,15 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 # 🗂️ Portfolio
 A collection of geospatial projects focused on identifying environmental and socio-economic disparities across different territories, in order to visualize how they reflect pertinent global issues. This portfolio includes maps and analytical diagrams created to document my GIS skills, experiment a variety of methods, and build a personal reference for future projects.
 #### Overview
+- [Lyon Healthcare Accessibility](#lyon-healthcare-accessibility)
 - [Warsaw Public Transport](#warsaw-public-transport)
-- [Wildfires](#wildfires)
-- [Tornadoes](#tornadoes)
+- [North American Biomes](#north-american-biomes)
+- [U.S. Wildfires](#us-wildfires) 
+- [Continental U.S. Tornadoes](#continental-us-tornadoes)
 
-## Europe
+## Lyon Healthcare Accessibility
 
-### Warsaw Public Transport
+## Warsaw Public Transport
 <p align="center">
     <img src="warsaw_transport_map.PNG" alt="Public Transport Map Warsaw" width="600">
   <br>
@@ -58,9 +60,7 @@ A collection of geospatial projects focused on identifying environmental and soc
   <br>
 </p>
 
-## United States
-
-### Biomes of North America
+## North American Biomes
 <p align="center">
     <img src="BIOMES_NA.PNG" alt="North America Biomes" width="600">
   <br>
@@ -69,7 +69,7 @@ A collection of geospatial projects focused on identifying environmental and soc
 I developed this map first to illustrate North America’s principal biomes using Level I Ecoregion data, providing environmental context for the continent’s natural phenomena and demographic patterns. Biome boundaries are displayed alongside national administrative divisions, including Canadian provinces, U.S. states, and Mexican *estados.* The continent encompasses a wide range of biomes. Firstly, the Arctic Cordillera and tundra dominate the far north, with cold, arid polar conditions, while Canada’s expansive boreal forests exist under subarctic climates. Secondly, the northeastern United States is characterized by eastern temperate forests, and the central Great Plains feature grasslands across semi-arid to temperate climatic zones. Thirdly, western regions include Pacific coastal forests with marine climates, mountainous northwestern forests spanning multiple elevations, and California’s Mediterranean zone. Lastly, the Southwest features hot, dry deserts, while southern Mexico hosts tropical wet-dry forests, temperate mountain ranges, and semi-arid plateau regions.
 
 ---
-### Wildfires
+## U.S. Wildfires
 <p align="center">
     <img src="conus_wf.png" alt="CONUS Wildfires" width="600">
   <br>
@@ -102,7 +102,7 @@ I developed this map first to illustrate North America’s principal biomes usin
 
 ---
 
-### Tornadoes
+## Continental U.S. Tornadoes
 
 I chose tornadoes as my next primary topic to analyze the spatial distribution of another major natural disaster in the United States, as it highlights the regions that are particularly vulnerable to severe weather. Tornado data were gathered from the National Oceanic and Atmospheric Administration (NOAA), whose records date back to 1950, but the analysis was limited to 2004 - 2024 to reflect improvements in detection technology and reporting accuracy.
 
