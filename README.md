@@ -75,10 +75,6 @@ A collection of geospatial projects focused on identifying environmental and soc
   <br>
 </p>
 
-<p align="center">
-    <img src="warsaw_capacity.png" alt="Stops Capacity Comparison Warsaw" width="900">
-  <br>
-</p>
 
 ## North American Biomes
 <p align="center">
