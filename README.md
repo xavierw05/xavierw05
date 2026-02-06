@@ -28,6 +28,30 @@ A collection of geospatial projects focused on identifying environmental and soc
 - [Continental U.S. Tornadoes](#continental-us-tornadoes)
 
 ## Lyon Healthcare Accessibility
+<p align="center">
+    <img src="pharm_distrib_lyon.png" alt="Pharmacies in Lyon Metropole" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="hosp_distrib_lyon.png" alt="Hospitals in Lyon Metropole" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="health_density_lyon.png" alt="Healthcare Establishment Density Lyon" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="demography_lyon.png" alt="Demography Lyon Metropole" width="600">
+  <br>
+</p>
+
+<p align="center">
+    <img src="access_score_lyon.png" alt="Healthcare Access Lyon Metropole" width="600">
+  <br>
+</p>
 
 ## Warsaw Public Transport
 <p align="center">
