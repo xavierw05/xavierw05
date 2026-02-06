@@ -20,7 +20,7 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 
 # 🗂️ Portfolio
 A collection of geospatial projects focused on identifying environmental and socio-economic disparities across different territories, in order to visualize how they reflect pertinent global issues. This portfolio includes maps and analytical diagrams created to document my GIS skills, experiment a variety of methods, and build a personal reference for future projects.
-#### Overview
+## Overview
 - [Lyon Healthcare Accessibility](#lyon-healthcare-accessibility)
 - [Warsaw Public Transport](#warsaw-public-transport)
 - [North American Biomes](#north-american-biomes)
