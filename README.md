@@ -80,11 +80,6 @@ A collection of geospatial projects focused on identifying environmental and soc
   <br>
 </p>
 
-<p align="center">
-    <img src="warsaw_all_transport.png" alt="All Transport Capacity Warsaw" width="600">
-  <br>
-</p>
-
 ## North American Biomes
 <p align="center">
     <img src="BIOMES_NA.PNG" alt="North America Biomes" width="600">
