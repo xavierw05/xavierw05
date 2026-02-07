@@ -75,6 +75,10 @@ A collection of geospatial projects focused on identifying environmental and soc
   <br>
 </p>
 
+<p align="center">
+    <img src="access_transport_warsaw.png" alt="Transport Accessibility Warsaw" width="900">
+  <br>
+</p>
 
 ## North American Biomes
 <p align="center">
