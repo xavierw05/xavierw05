@@ -56,7 +56,7 @@ A collection of geospatial projects focused on identifying environmental and soc
 
 ## Warsaw Public Transport
 <p align="center">
-    <img src="warsaw_transport_map.PNG" alt="Public Transport Map Warsaw" width="600">
+    <img src="warsaw_transport_map.png" alt="Public Transport Map Warsaw" width="600">
   <br>
 </p>
 
