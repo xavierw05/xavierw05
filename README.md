@@ -75,6 +75,66 @@ A personal collection of geospatial projects analyzing environmental and socio-e
   <br>
 </p>
 
+### Indices Formulas to Calculate Public Transport Adequacy Score
+
+#### 1. Bus Index
+
+$$\text{Bus Index} = \begin{cases} 0 & \text{if bus count} = 0 \\ \frac{\text{bus count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
+
+`CASE WHEN "bus_count" = 0 THEN 0 ELSE ("bus_count" / "population") * 10000 END`
+
+#### 2. Tram Index
+
+$$\text{Tram Index} = \begin{cases} 0 & \text{if tram count} = 0 \\ \frac{\text{tram count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
+
+`CASE WHEN "tram_count" = 0 THEN 0 ELSE ("tram_count" / "population") * 10000 END`
+</p>
+
+#### 3. Metro Index
+
+$$\text{Metro Index} = \begin{cases} 0 & \text{if metro count} = 0 \\ \frac{\text{metro count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
+
+`CASE WHEN "metro_count" = 0 THEN 0 ELSE ("metro_count" / "population") * 10000 END`
+
+#### 4. Rail Index 
+
+$$\text{Rail Index} = \begin{cases} 0 & \text{if rail count} = 0 \\ \frac{\text{rail count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
+
+`CASE WHEN "rail_count" = 0 THEN 0 ELSE ("rail_count" / "population") * 10000 END`
+</p>
+
+#### 5. Public Transport Index 
+
+$$
+\begin{aligned}
+\text{Public Transport Index} \ &= 0.30 \times \left( \frac{\text{metro index} - \min(\text{metro index})}{\max(\text{metro index}) - \min(\text{metro index})} \times 100 \right) \\
+& + 0.25 \times \left( \frac{\text{rail index} - \min(\text{rail index})}{\max(\text{rail index}) - \min(\text{rail index})} \times 100 \right) \\
+& + 0.25 \times \left( \frac{\text{tram index} - \min(\text{tram index})}{\max(\text{tram index}) - \min(\text{tram index})} \times 100 \right) \\
+& + 0.20 \times \left( \frac{\text{bus index} - \min(\text{bus index})}{\max(\text{bus index}) - \min(\text{bus index})} \times 100 \right)
+\end{aligned}
+$$
+
+`(
+  0.30 * (("metro_index" - minimum("metro_index")) / (maximum("metro_index") - minimum("metro_index")) * 100) +
+  0.25 * (("rail_index" - minimum("rail_index")) / (maximum("rail_index") - minimum("rail_index")) * 100) +
+  0.25 * (("tram_index" - minimum("tram_index")) / (maximum("tram_index") - minimum("tram_index")) * 100) +
+  0.20 * (("bus_index" - minimum("bus_index")) / (maximum("bus_index") - minimum("bus_index")) * 100)
+)`
+
+#### 6. Public Transport Adequacy Grade
+
+$$\text{Transport Score} = \begin{cases} 
+   \text{Very Low} & \text{if access index} \leq 20 \\
+   \text{Low} & \text{if } 20 < \text{access index} \leq 35 \\
+   \text{Moderate} & \text{if } 35 < \text{access index} \leq 50 \\
+   \text{High} & \text{if } 50 < \text{access index} \leq 65 \\
+   \text{Very High} & \text{if access index} > 65
+   \end{cases}$$
+
+`CASE WHEN "access_index" <= 20 THEN 'Very Low' WHEN "access_index" <= 35 THEN 'Low' WHEN "access_index" <= 50 THEN 'Moderate' WHEN "access_index" <= 65 THEN 'High' ELSE 'Very High' END`
+</p>
+<br>
+
 <p align="center">
     <img src="access_transport_warsaw.png" alt="Transport Accessibility Warsaw" width="900">
   <br>
