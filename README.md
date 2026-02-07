@@ -45,7 +45,7 @@ A personal collection of geospatial projects analyzing environmental and socio-e
 </p>
 
 <p align="center">
-    <img src="demography_lyon.png" alt="Demography Lyon Metropole" width="600">
+    <img src="demographics_lyon.png" alt="Demography Lyon Metropole" width="600">
   <br>
 </p>
 
