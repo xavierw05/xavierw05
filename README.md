@@ -49,6 +49,54 @@ A personal collection of geospatial projects analyzing environmental and socio-e
   <br>
 </p>
 
+#### 1. Pharmacy Index
+$$\text{Pharmacy Index} = \begin{cases} 0 & \text{if pharmacy count} = 0 \\ \frac{\text{pharmacy count}}{\text{population}} \times 1000 & \text{otherwise} \end{cases}$$
+
+`CASE WHEN "pharm_count" = 0 THEN 0 ELSE ("pharm_count" / "population") * 1000 END`
+
+#### 2. Hospital Index
+$$\text{Hospital Index} = \begin{cases} 0 & \text{if hospital count} = 0 \\ \frac{\text{hospital count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
+
+`CASE WHEN "hosp_count" = 0 THEN 0 ELSE ("hosp_count" / "population") * 10000 END`
+
+</p>
+
+#### 3. Spatial Coverage Index
+$$\text{Spatial Coverage} = \begin{cases} 0 & \text{if (pharmacy count + hospital count)} = 0 \\ \frac{\text{pharmacy count} + \text{hospital count}}{\text{area km}^2} & \text{otherwise} \end{cases}$$
+
+`CASE WHEN ("pharm_count" + "hosp_count") = 0 THEN 0 ELSE ("pharm_count" + "hosp_count") / "area_km2" END`
+
+</p>
+
+#### 4. Healthcare Access Index
+$$
+\begin{aligned}
+\text{Access Index} \ &= 0.50 \times \left( \frac{\text{hospital index} - \min(\text{hospital index})}{\max(\text{hospital index}) - \min(\text{hospital index})} \times 100 \right) \\
+& + 0.35 \times \left( \frac{\text{pharmacy index} - \min(\text{pharmacy index})}{\max(\text{pharmacy index}) - \min(\text{pharmacy index})} \times 100 \right) \\
+& + 0.15 \times \left( \frac{\text{spatial coverage} - \min(\text{spatial coverage})}{\max(\text{spatial coverage}) - \min(\text{spatial coverage})} \times 100 \right)
+\end{aligned}
+$$
+
+`(
+  0.50 * (("hosp_index" - minimum("hosp_index")) / (maximum("hosp_index") - minimum("hosp_index")) * 100) +
+  0.35 * (("pharm_index" - minimum("pharm_index")) / (maximum("pharm_index") - minimum("pharm_index")) * 100) +
+  0.15 * (("spatial_cov_index" - minimum("spatial_cov_index")) / (maximum("spatial_cov_index") - minimum("spatial_cov_index")) * 100)
+)`
+
+#### 5. Healthcare Access Score
+$$\text{Access Score} = \begin{cases} 
+   \text{No Facilities} & \text{if pharmacy count} = 0 \land \text{hospital count} = 0 \\
+   \text{Very Low} & \text{if } 0 < \text{access index} \leq 15 \\
+   \text{Low} & \text{if } 15 < \text{access index} \leq 25 \\
+   \text{Moderate} & \text{if } 25 < \text{access index} \leq 35 \\
+   \text{High} & \text{if } 35 < \text{access index} \leq 45 \\
+   \text{Very High} & \text{if access index} > 45
+   \end{cases}$$
+
+`CASE WHEN "pharm_count" = 0 AND "hosp_count" = 0 THEN 'No Facilities' WHEN "access_index" <= 15 THEN 'Very Low' WHEN "access_index" <= 25 THEN 'Low' WHEN "access_index" <= 35 THEN 'Moderate' WHEN "access_index" <= 45 THEN 'High' ELSE 'Very High' END`
+</p>
+<br>
+
 <p align="center">
     <img src="access_score_lyon.png" alt="Healthcare Access Lyon Metropole" width="600">
   <br>
@@ -69,6 +117,7 @@ A personal collection of geospatial projects analyzing environmental and socio-e
     <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
   <br>
 </p>
+
 
 <p align="center">
     <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
