@@ -136,7 +136,7 @@ $$\text{Transport Score} = \begin{cases}
 <br>
 
 <p align="center">
-    <img src="access_transport_warsaw.png" alt="Transport Accessibility Warsaw" width="900">
+    <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="900">
   <br>
 </p>
 
