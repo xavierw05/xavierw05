@@ -162,7 +162,7 @@ $$\text{Healthcare Accessibility Score} = \begin{cases}
 
 ## Warsaw Public Transport
 <p align="center">
-    <img src="warsaw_rapid_transit.png" alt="Rapid Transit Map Warsaw" width="900">
+    <img src="warsaw_rapid_transit.PNG" alt="Rapid Transit Map Warsaw" width="900">
   <br>
     <em>Figure 2.a</em>
 <p>
