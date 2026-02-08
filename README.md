@@ -313,10 +313,22 @@ $$\text{Transport Score} = \begin{cases}
 ## North American Biomes
 <p align="center">
     <img src="BIOMES_NA.PNG" alt="North America Biomes" width="600">
-  <br>
+    <br>
+    <em>Figure 3.a</em>
 </p>
 
-I developed this map first to illustrate North America’s principal biomes using Level I Ecoregion data, providing environmental context for the continent’s natural phenomena and demographic patterns. Biome boundaries are displayed alongside national administrative divisions, including Canadian provinces, U.S. states, and Mexican *estados.* The continent encompasses a wide range of biomes. Firstly, the Arctic Cordillera and tundra dominate the far north, with cold, arid polar conditions, while Canada’s expansive boreal forests exist under subarctic climates. Secondly, the northeastern United States is characterized by eastern temperate forests, and the central Great Plains feature grasslands across semi-arid to temperate climatic zones. Thirdly, western regions include Pacific coastal forests with marine climates, mountainous northwestern forests spanning multiple elevations, and California’s Mediterranean zone. Lastly, the Southwest features hot, dry deserts, while southern Mexico hosts tropical wet-dry forests, temperate mountain ranges, and semi-arid plateau regions.
+I created this map to illustrate North America's principal biomes using Level I Ecoregion data, providing environmental context for the continent's natural phenomena and demographic patterns. Biome boundaries are displayed alongside national administrative divisions (Canadian provinces, U.S. states, and Mexican estados), revealing the continent's diverse climatic and ecological zones. The distribution ranges from polar conditions in the far north to tropical forests in southern Mexico, with temperate, arid, and Mediterranean zones throughout.
+<p>
+    
+* Arctic Cordillera and tundra in far north (cold, arid polar conditions)
+* Expansive boreal forests across Canada (subarctic climate)
+* Eastern temperate forests in northeastern United States
+* Central Great Plains grasslands (semi-arid to temperate zones)
+* Pacific coastal forests with marine climates
+* Northwestern mountainous forests spanning multiple elevations
+* California Mediterranean zone
+* Hot, dry deserts in the Southwest
+* Southern Mexico with tropical wet-dry forests, temperate mountains, and semi-arid plateaus
 
 ## U.S. Wildfires
 <p align="center">
