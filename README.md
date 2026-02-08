@@ -238,35 +238,45 @@ This map synthesizes transport infrastructure and demographic data into a compre
 <p align="center">
   <i>The formulas used to calculate the required indices, using both <b>standard mathematical equations</b> and <b>code</b>, are provided below:</i>
 </p>
-<br>
+</br>
 
-#### 1. Bus Index
+**1. Bus Index**: Calculates the number of bus stops per 10,000 residents in each district, normalized to zero if no bus stops exist. This standardizes bus accessibility relative to population size.
 
 $$\text{Bus Index} = \begin{cases} 0 & \text{if bus count} = 0 \\ \frac{\text{bus count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
 
-`CASE WHEN "bus_count" = 0 THEN 0 ELSE ("bus_count" / "population") * 10000 END`
+<div align="center">
+<code>CASE WHEN "bus_count" = 0 THEN 0 ELSE ("bus_count" / "population") * 10000 END</code>
+</div>
+<br>
 
-#### 2. Tram Index
+**2. Tram Index**: Calculates the number of tram stops per 10,000 residents in each district, normalized to zero if no tram stops exist. This standardizes tram accessibility relative to population size.
 
 $$\text{Tram Index} = \begin{cases} 0 & \text{if tram count} = 0 \\ \frac{\text{tram count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
 
-`CASE WHEN "tram_count" = 0 THEN 0 ELSE ("tram_count" / "population") * 10000 END`
-</p>
+<div align="center">
+<code>CASE WHEN "tram_count" = 0 THEN 0 ELSE ("tram_count" / "population") * 10000 END</code>
+</div>
+<br>
 
-#### 3. Metro Index
+**3. Metro Index**: Calculates the number of metro stops per 10,000 residents in each district, normalized to zero if no metro stops exist. This standardizes metro accessibility relative to population size.
 
 $$\text{Metro Index} = \begin{cases} 0 & \text{if metro count} = 0 \\ \frac{\text{metro count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
 
-`CASE WHEN "metro_count" = 0 THEN 0 ELSE ("metro_count" / "population") * 10000 END`
+<div align="center">
+<code>CASE WHEN "metro_count" = 0 THEN 0 ELSE ("metro_count" / "population") * 10000 END</code>
+</div>
+<br>
 
-#### 4. Rail Index 
+**4. Rail Index**: Calculates the number of rail stops per 10,000 residents in each district, normalized to zero if no rail stops exist. This standardizes rail accessibility relative to population size.
 
 $$\text{Rail Index} = \begin{cases} 0 & \text{if rail count} = 0 \\ \frac{\text{rail count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
 
-`CASE WHEN "rail_count" = 0 THEN 0 ELSE ("rail_count" / "population") * 10000 END`
-</p>
+<div align="center">
+    <code>CASE WHEN "rail_count" = 0 THEN 0 ELSE ("rail_count" / "population") * 10000 END</code>
+</div>
+<br>
 
-#### 5. Public Transport Index 
+**5. Public Transport Index**: "Combines all four transit mode indices into a weighted composite score on a 0-100 scale. Weights reflect transit hierarchy. Metro (30%) for superior capacity and speed, Rail and Tram (25% each) for medium capacity, and Bus (20%) as basic service tier.
 
 $$
 \begin{aligned}
@@ -277,14 +287,15 @@ $$
 \end{aligned}
 $$
 
-`(
-  0.30 * (("metro_index" - minimum("metro_index")) / (maximum("metro_index") - minimum("metro_index")) * 100) +
-  0.25 * (("rail_index" - minimum("rail_index")) / (maximum("rail_index") - minimum("rail_index")) * 100) +
-  0.25 * (("tram_index" - minimum("tram_index")) / (maximum("tram_index") - minimum("tram_index")) * 100) +
-  0.20 * (("bus_index" - minimum("bus_index")) / (maximum("bus_index") - minimum("bus_index")) * 100)
-)`
+<div align="center">
+    <code>(0.30 * (("metro_index" - minimum("metro_index")) / (maximum("metro_index") - minimum("metro_index")) * 100) 
+        + 0.25 * (("rail_index" - minimum("rail_index")) / (maximum("rail_index") - minimum("rail_index")) * 100) 
+        + 0.25 * (("tram_index" - minimum("tram_index")) / (maximum("tram_index") - minimum("tram_index")) * 100) 
+        + 0.20 * (("bus_index" - minimum("bus_index")) / (maximum("bus_index") - minimum("bus_index")) * 100))</code>
+</div>
+<br>
 
-#### 6. Public Transport Adequacy Grade
+**6. Public Transport Adequacy Grade**: Translates the continuous Public Transport Index into five categorical grades using defined quantitative thresholds. This classification simplifies interpretation by converting numerical scores into qualitative categories that clearly communicate transport provision levels. 
 
 $$\text{Transport Score} = \begin{cases} 
    \text{Very Low} & \text{if access index} \leq 20 \\
@@ -294,8 +305,9 @@ $$\text{Transport Score} = \begin{cases}
    \text{Very High} & \text{if access index} > 65
    \end{cases}$$
 
-`CASE WHEN "access_index" <= 20 THEN 'Very Low' WHEN "access_index" <= 35 THEN 'Low' WHEN "access_index" <= 50 THEN 'Moderate' WHEN "access_index" <= 65 THEN 'High' ELSE 'Very High' END`
-</p>
+<div align="center">
+    <code>CASE WHEN "access_index" <= 20 THEN 'Very Low' WHEN "access_index" <= 35 THEN 'Low' WHEN "access_index" <= 50 THEN 'Moderate' WHEN "access_index" <= 65 THEN 'High' ELSE 'Very High' END</code>
+    </div>
 <br>
 
 ## North American Biomes
