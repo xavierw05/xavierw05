@@ -162,39 +162,47 @@ $$\text{Healthcare Accessibility Score} = \begin{cases}
 
 ## Warsaw Public Transport
 <p align="center">
-    <img src="warsaw_transport_map.png" alt="Public Transport Map Warsaw" width="600">
+    <img src="warsaw_rapid_transit.png" alt="Rapid Transit Map Warsaw" width="900">
   <br>
     <em>Figure 2.a</em>
+<p>
 This map displays Warsaw's rapid transit infrastructure, including two metro lines (M1 and M2), four rail lines (SKM), and tram networks. The network layout is crucial for understanding the backbone of Warsaw's public transport system, as rapid transit provides higher capacity and faster connections than buses. The map shows the geographic distribution and connectivity of these rail-based systems across Warsaw's districts.
 </p>
 
 * Central convergence of all rapid transit modes at Śródmieście (city center)
-* Metro lines form a perpendicular cross pattern (north-south M1, east-west M2)
-* Rail lines extend radially, particularly eastward toward Chopin Airport and Rembertów
-* Peripheral districts (Białołęka, Wesoła, Wilanów, Rembertów) lack tram and metro coverage
+* Metro lines form a perpendicular cross pattern (north-south with M1, east-west with M2)
+* Rail lines extend to the furthest ends of peripheral districts, providing most coverage across the city
 
 </p>
+<br>
 
 <p align="center">
     <img src="warsaw_bus.png" alt="Bus Map Warsaw" width="600">
   <br>
      <em>Figure 2.b</em>
 </p>
+This map illustrates the spatial distribution of all bus stops across Warsaw, revealing the fine-grained coverage of the city's most flexible transit mode. Bus networks typically fill gaps left by rail-based transit and provide last-mile connectivity. Each point represents an individual bus stop location based on Warsaw Open Data Portal records.
+<p>
+    
+* Dense, web-like coverage across most of the city
+* Also highest concentration in central and southern districts
+* More dispersed coverage in peripheral eastern districts
 
+</p>
+<br>
 <p align="center">
     <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
     <br>
 <em>Figure 2.c</em>
-  <br>
-</p>
-
+  </p>
+    <br>
 
 <p align="center">
     <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
 <br>
     <em>Figure 2.d</em>
-  <br>
 </p>
+<br>
 
 <p align="center">
     <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="900">
