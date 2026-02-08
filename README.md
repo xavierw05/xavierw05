@@ -165,6 +165,14 @@ $$\text{Healthcare Accessibility Score} = \begin{cases}
     <img src="warsaw_transport_map.png" alt="Public Transport Map Warsaw" width="600">
   <br>
     <em>Figure 2.a</em>
+This map displays Warsaw's rapid transit infrastructure, including two metro lines (M1 and M2), four rail lines (SKM), and tram networks. The network layout is crucial for understanding the backbone of Warsaw's public transport system, as rapid transit provides higher capacity and faster connections than buses. The map shows the geographic distribution and connectivity of these rail-based systems across Warsaw's districts.
+</p>
+
+* Central convergence of all rapid transit modes at Śródmieście (city center)
+* Metro lines form a perpendicular cross pattern (north-south M1, east-west M2)
+* Rail lines extend radially, particularly eastward toward Chopin Airport and Rembertów
+* Peripheral districts (Białołęka, Wesoła, Wilanów, Rembertów) lack tram and metro coverage
+
 </p>
 
 <p align="center">
