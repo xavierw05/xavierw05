@@ -211,7 +211,7 @@ This map illustrates the spatial distribution of all bus stops across Warsaw, re
     <em>Figure 2.d</em>
 </p>
 This map presents Warsaw's demographic landscape by combining population count (proportional circles) and population density (choropleth shading). Density was calculated by dividing each district's total population by its surface area in square kilometers. Understanding demographic distribution is essential for assessing whether transport infrastructure aligns with where people actually live.
-</p>
+<p>
 
 * Highest population densities in central districts (5200-8300 pop/km² in Śródmieście, Wola, Mokotów)
 * Large absolute populations in both central and north-western peripheral districts
@@ -225,9 +225,20 @@ This map presents Warsaw's demographic landscape by combining population count (
     <br>
     <em>Figure 2.e</em>
   <br>
+
+This map synthesizes transport infrastructure and demographic data into a comprehensive adequacy index, measuring how well public transport provision matches population demand in each district. The index was calculated by combining total stop counts (across all transit modes) and population data into a normalized score. Unlike simple density measures, adequacy accounts for whether infrastructure is proportionate to the number of residents requiring service.
 </p>
 
-### Indices Formulas to Calculate Public Transport Adequacy Score
+* Very high adequacy in the center (Śródmieście/Wola/Praga Północ)
+* Higher adequacy in peripheral districts (Białołęka, Wawer, Włochy) due to lower population pressure
+* Systematic western undersupply in Bemowo and Ursus with very low adequacy
+* Demand exceeding supply in high-density districts (Mokotów, Praga Południe, Targówek)
+
+<br>
+<p align="center">
+  <i>The formulas used to calculate the required indices, using both <b>standard mathematical equations</b> and <b>code</b>, are provided below:</i>
+</p>
+<br>
 
 #### 1. Bus Index
 
