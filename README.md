@@ -162,7 +162,7 @@ $$\text{Healthcare Accessibility Score} = \begin{cases}
 
 ## Warsaw Public Transport
 <p align="center">
-    <img src="warsaw_rapid_transit.PNG" alt="Rapid Transit Map Warsaw" width="900">
+    <img src="warsaw_rapid_transit.png" alt="Rapid Transit Map Warsaw" width="900">
   <br>
     <em>Figure 2.a</em>
 <p>
@@ -175,7 +175,6 @@ This map displays Warsaw's rapid transit infrastructure, including two metro lin
 
 </p>
 <br>
-
 <p align="center">
     <img src="warsaw_bus.png" alt="Bus Map Warsaw" width="600">
   <br>
@@ -191,19 +190,36 @@ This map illustrates the spatial distribution of all bus stops across Warsaw, re
 </p>
 <br>
 <p align="center">
-    <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
+     <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
     <br>
-<em>Figure 2.c</em>
+     <em>Figure 2.c</em>
   </p>
-    <br>
+  This map quantifies public transport accessibility by calculating stop density per square kilometer for each district across all four transit modes. Density was computed by dividing the number of stops by the district's surface area, allowing direct comparison between districts of varying sizes in surface area. This metric reveals which areas have the most intensive transport coverage.
+  <p>
+
+* Bus density relatively uniform (most districts have around 4.6 to 10.5 stops per km²), with highest rate in Śródmieście
+* Moderate rail density disparitiees between central districts, first-ring and peripheral districts
+* Highly unequal tram coverage, concentrated in central-western districts, yet completely absent elsewhere
+* South-eastern districts (Wilanów and Wawer) systematically underserved by rail-based transit modes
+
+<br>
+</p>
 
 <p align="center">
-    <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
+    <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
 <br>
     <em>Figure 2.d</em>
 </p>
-<br>
+This map presents Warsaw's demographic landscape by combining population count (proportional circles) and population density (choropleth shading). Density was calculated by dividing each district's total population by its surface area in square kilometers. Understanding demographic distribution is essential for assessing whether transport infrastructure aligns with where people actually live.
+</p>
 
+* Highest population densities in central districts (5200-8300 pop/km² in Śródmieście, Wola, Mokotów)
+* Large absolute populations in both central and north-western peripheral districts
+* Some peripheral districts have large populations but low density due to geographic size
+* Białołęka district show low density despite moderate population counts
+
+<br>
+  </p>
 <p align="center">
     <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="900">
     <br>
