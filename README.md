@@ -83,55 +83,7 @@ Pharmacy and hospital density layers are both calculated by dividing the number 
 * Pharmacy density ranges from 0 to 31.9 per 10km² with clear central concentration
 * Hospital density reaches maximum (2.36 - 4.85 per 10km²) with sharper concentration
 * Concentric gradient pattern centered on Lyon's core
-* 6 communes in total with absolute absence of pharmacies in the mid-northern region of the metropolitan area
-</p>
-<br>
-
-#### 1. Pharmacy Index
-$$\text{Pharmacy Index} = \begin{cases} 0 & \text{if pharmacy count} = 0 \\ \frac{\text{pharmacy count}}{\text{population}} \times 1000 & \text{otherwise} \end{cases}$$
-
-`CASE WHEN "pharm_count" = 0 THEN 0 ELSE ("pharm_count" / "population") * 1000 END`
-
-#### 2. Hospital Index
-$$\text{Hospital Index} = \begin{cases} 0 & \text{if hospital count} = 0 \\ \frac{\text{hospital count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
-
-`CASE WHEN "hosp_count" = 0 THEN 0 ELSE ("hosp_count" / "population") * 10000 END`
-
-</p>
-
-#### 3. Spatial Coverage Index
-$$\text{Spatial Coverage} = \begin{cases} 0 & \text{if (pharmacy count + hospital count)} = 0 \\ \frac{\text{pharmacy count} + \text{hospital count}}{\text{area km}^2} & \text{otherwise} \end{cases}$$
-
-`CASE WHEN ("pharm_count" + "hosp_count") = 0 THEN 0 ELSE ("pharm_count" + "hosp_count") / "area_km2" END`
-
-</p>
-
-#### 4. Healthcare Access Index
-$$
-\begin{aligned}
-\text{Access Index} \ &= 0.50 \times \left( \frac{\text{hospital index} - \min(\text{hospital index})}{\max(\text{hospital index}) - \min(\text{hospital index})} \times 100 \right) \\
-& + 0.35 \times \left( \frac{\text{pharmacy index} - \min(\text{pharmacy index})}{\max(\text{pharmacy index}) - \min(\text{pharmacy index})} \times 100 \right) \\
-& + 0.15 \times \left( \frac{\text{spatial coverage} - \min(\text{spatial coverage})}{\max(\text{spatial coverage}) - \min(\text{spatial coverage})} \times 100 \right)
-\end{aligned}
-$$
-
-`(
-  0.50 * (("hosp_index" - minimum("hosp_index")) / (maximum("hosp_index") - minimum("hosp_index")) * 100) +
-  0.35 * (("pharm_index" - minimum("pharm_index")) / (maximum("pharm_index") - minimum("pharm_index")) * 100) +
-  0.15 * (("spatial_cov_index" - minimum("spatial_cov_index")) / (maximum("spatial_cov_index") - minimum("spatial_cov_index")) * 100)
-)`
-
-#### 5. Healthcare Access Score
-$$\text{Access Score} = \begin{cases} 
-   \text{No Facilities} & \text{if pharmacy count} = 0 \land \text{hospital count} = 0 \\
-   \text{Very Low} & \text{if } 0 < \text{access index} \leq 15 \\
-   \text{Low} & \text{if } 15 < \text{access index} \leq 25 \\
-   \text{Moderate} & \text{if } 25 < \text{access index} \leq 35 \\
-   \text{High} & \text{if } 35 < \text{access index} \leq 45 \\
-   \text{Very High} & \text{if access index} > 45
-   \end{cases}$$
-
-`CASE WHEN "pharm_count" = 0 AND "hosp_count" = 0 THEN 'No Facilities' WHEN "access_index" <= 15 THEN 'Very Low' WHEN "access_index" <= 25 THEN 'Low' WHEN "access_index" <= 35 THEN 'Moderate' WHEN "access_index" <= 45 THEN 'High' ELSE 'Very High' END`
+* Six communes in total with absolute absence of pharmacies in the mid-northern region of the metropolitan area
 </p>
 <br>
 
@@ -140,6 +92,73 @@ $$\text{Access Score} = \begin{cases}
     <br>
     <em>Figure 1.e</em>
 </p>
+This map illustrates healthcare accessibility across the Lyon Metropolitan Area by combining all the previously gathered necessary variables through a composite index. There are huge imbalances between the metropolitan center and its outer peripheries, with Lyon's urban core benefiting from very high to high accessibility while peripheral communes face low accessibility or complete absence of facilities. Scores appear as a fragmented patchwork, though the southern part of the metropolitan area displays more consistent moderate access, deviating from a simple concentric decline. Communes with no facilities (shown in red) are predominantly concentrated in the north, reflecting lower population densities and limited healthcare infrastructure.
+</p>
+
+* Strong urban core concentration (dark and light blue zones)
+* Several peripheric communes with relatively decent level of accessibility
+* Multiple disparities between adjacent communes
+* Healthcare deserts exclusively in northern periphery (red zones with no facilities)
+
+<br>
+<p align="center">
+  <i>The formulas used to calculate the required indices, using both <b>standard mathematical equations</b> and <b>code</b>, are provided below:</i>
+</p>
+<br>
+
+**1. Pharmacy Index**: Measurement of relative availability of pharmacies by calculating the number of pharmacies per 1,000 residents in each commune. The 1,000 multiplier is chosen because pharmacies are relatively abundant, producing interpretable whole numbers that reflect typical accessibility.
+
+$$\text{Pharmacy Index} = \begin{cases} 0 & \text{if pharmacy count} = 0 \\ \frac{\text{pharmacy count}}{\text{population}} \times 1000 & \text{otherwise} \end{cases}$$
+<div align="center">
+    <code>CASE WHEN "pharm_count" = 0 THEN 0 ELSE ("pharm_count" / "population") * 1000 END</code>
+    </div>
+<br>
+
+**2. Hospital Index**: Measurement of relative availability of hospitals by calculating the number of hospitals per 10,000 residents in each commune. The 10,000 multiplier is chosen because hospitals are much scarcer than pharmacies. Scaling up the denominator are to avoid producing signicantly small decimal values that would be difficult to interpret and compare.
+
+$$\text{Hospital Index} = \begin{cases} 0 & \text{if hospital count} = 0 \\ \frac{\text{hospital count}}{\text{population}} \times 10000 & \text{otherwise} \end{cases}$$
+<div align="center">
+  <code>CASE WHEN "hosp_count" = 0 THEN 0 ELSE ("hosp_count" / "population") * 10000 END</code>
+</div>
+<br>
+
+**3. Spatial Coverage Index**: Measurement of the geographic density of all healthcare establishments, both pharmacies and hospitals,  per km² in each municipality, independent of population.
+
+$$\text{Spatial Coverage} = \begin{cases} 0 & \text{if (pharmacy count + hospital count)} = 0 \\ \frac{\text{pharmacy count} + \text{hospital count}}{\text{area km}^2} & \text{otherwise} \end{cases}$$
+
+<div align="center">
+    <code>CASE WHEN ("pharm_count" + "hosp_count") = 0 THEN 0 ELSE ("pharm_count" + "hosp_count") / "area_km2" END</code>
+</div>
+<br>
+
+**4. Healthcare Accessibiity Index**: Weighted composite score combining the three indices using coefficients (50% for hospitals, 35% for pharmacies, 15% for spatial coverage), normalized to a 0–100 scale todirectly compare the continuous quantitative variables for each commune.
+
+$$\begin{aligned}
+\text{Healthcare Accessibility Index} \ &= 0.50 \times \left( \frac{\text{hospital index} - \min(\text{hospital index})}{\max(\text{hospital index}) - \min(\text{hospital index})} \times 100 \right) \\
+& + 0.35 \times \left( \frac{\text{pharmacy index} - \min(\text{pharmacy index})}{\max(\text{pharmacy index}) - \min(\text{pharmacy index})} \times 100 \right) \\
+& + 0.15 \times \left( \frac{\text{spatial coverage} - \min(\text{spatial coverage})}{\max(\text{spatial coverage}) - \min(\text{spatial coverage})} \times 100 \right)
+\end{aligned}$$
+
+<div align="center">
+    <code>(0.50 * (("hosp_index" - minimum("hosp_index")) / (maximum("hosp_index") - minimum("hosp_index")) * 100) + 0.35 * (("pharm_index" - minimum("pharm_index")) / (maximum("pharm_index") - minimum("pharm_index")) * 100) + 0.15 * (("spatial_cov_index" - minimum("spatial_cov_index")) / (maximum("spatial_cov_index") - minimum("spatial_cov_index")) * 100))</code>
+</div>
+<br>
+
+**5. Healthcare Accessibility Score**: Categorical classification system that converts the numeric Healthcare Access Index into five interpretable accessibility categories (No Facilities, Very Low, Low, Moderate, High, Very High) for easier visualization and understanding.
+
+$$\text{Healthcare Accessibility Score} = \begin{cases} 
+   \text{No Facilities} & \text{if pharmacy count} = 0 \land \text{hospital count} = 0 \\
+   \text{Very Low} & \text{if } 0 < \text{healthcare accessibility index} \leq 15 \\
+   \text{Low} & \text{if } 15 < \text{healthcare accessibility index} \leq 25 \\
+   \text{Moderate} & \text{if } 25 < \text{healthcare accessibility index} \leq 35 \\
+   \text{High} & \text{if } 35 < \text{healthcare accessibility index} \leq 45 \\
+   \text{Very High} & \text{healthcare accessibility index} > 45
+   \end{cases}$$
+
+<div align="center">
+<code>CASE WHEN "pharm_count" = 0 AND "hosp_count" = 0 THEN 'No Facilities' WHEN "access_index" <= 15 THEN 'Very Low' WHEN "access_index" <= 25 THEN 'Low' WHEN "access_index" <= 35 THEN 'Moderate' WHEN "access_index" <= 45 THEN 'High' ELSE 'Very High' END</code>
+</div>
+<br>
 
 ## Warsaw Public Transport
 <p align="center">
