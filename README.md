@@ -30,24 +30,62 @@ A personal collection of geospatial projects analyzing environmental and socio-e
 
 ## Lyon Healthcare Accessibility
 <p align="center">
-    <img src="pharm_distrib_lyon.png" alt="Pharmacies in Lyon Metropole" width="600">
+    <img src="demographics_lyon.png" alt="Demography Lyon Metropole" width="600">
   <br>
+    <em>Figure 1.a</em>
 </p>
+I developed this map to visualize the healthcare demand index. Population density is calculated by dividing the total population count of each municipality by its surface area in km² in order to create the color-coded density classes. Population circles are then scaled proportionally to represent the absolute population count of each commune, providing both intensive (density) and extensive (absolute numbers) perspectives.
+</p>
+
+* Very high population density in central Lyon and multiple eastern communes
+* Large population circles concentrated in central zones
+* Sharp density and population drop from dark red core to northern and southern peripheries
+</p>
+<br>
+
+<p align="center">
+    <img src="pharm_distrib_lyon.png" alt="Pharmacies in Lyon Metropole" width="600">
+    <br>
+    <em>Figure 1.b</em>
+</p>
+Each pharmacy location is plotted as a point on the map using geocoded coordinates from the data sources. Pharmacies exhibit a dense and widespread distribution throughout the Lyon metropolitan area, with particularly high concentrations in the central urban zones as evidenced by the detailed inset. The network shows strong coverage in developed urban and suburban areas, while gradually thinning toward the periphery.
+</p>
+
+* Primary dense cluster in central Lyon with high coverage across urban and suburban areas
+* Gradual decrease in density moving outward
+* Sparse but present distribution in peripheral municipalities
+</p>
+<br>
 
 <p align="center">
     <img src="hosp_distrib_lyon.png" alt="Hospitals in Lyon Metropole" width="600">
-  <br>
+    <br>
+    <em>Figure 1.c</em>
 </p>
+General hospital locations are also mapped as point features using geocoded coordinates from the same official data sources. They display a considerably sparser distribution compared to pharmacies, with the majority concentrated within the metropolitan boundary. This limited geographic spread indicates that hospital accessibility is significantly more restricted than pharmacy access, requiring longer travel distances for residents in outlying areas.
+</p>
+
+* Extreme concentration in central urban core
+* Clustered distribution within the red metropolitan boundary
+* Limited facilities in peripheral zones
+* Multiple communes with complete absence of general hospitals
+</p>
+<br>
 
 <p align="center">
     <img src="health_density_lyon.png" alt="Healthcare Establishment Density Lyon" width="600">
-  <br>
+    <br>
+    <em>Figure 1.d</em>
+</p>
+Pharmacy and hospital density layers are both calculated by dividing the number of respective establishments in each commune by its surface area to obtain establishments per 10 km². This dual-layer choropleth reveals distinct density patterns for pharmacies and hospitals. Pharmacies show a clear radial gradient with the darkest shading (31.9 per 10km²) in the center, gradually decreasing toward lighter green in peripheral zones. Hospitals display a steeper concentration gradient with the highest density (2.36-4.85 per 10km²) concentrated in the central core, while extensive white zones indicate zero hospital density or presence in outer communes.
 </p>
 
-<p align="center">
-    <img src="demographics_lyon.png" alt="Demography Lyon Metropole" width="600">
-  <br>
+* Pharmacy density ranges from 0 to 31.9 per 10km² with clear central concentration
+* Hospital density reaches maximum (2.36 - 4.85 per 10km²) with sharper concentration
+* Concentric gradient pattern centered on Lyon's core
+* 6 communes in total with absolute absence of pharmacies in the mid-northern region of the metropolitan area
 </p>
+<br>
 
 #### 1. Pharmacy Index
 $$\text{Pharmacy Index} = \begin{cases} 0 & \text{if pharmacy count} = 0 \\ \frac{\text{pharmacy count}}{\text{population}} \times 1000 & \text{otherwise} \end{cases}$$
@@ -99,7 +137,8 @@ $$\text{Access Score} = \begin{cases}
 
 <p align="center">
     <img src="access_score_lyon.png" alt="Healthcare Access Lyon Metropole" width="600">
-  <br>
+    <br>
+    <em>Figure 1.e</em>
 </p>
 
 ## Warsaw Public Transport
@@ -240,6 +279,8 @@ I chose tornadoes as my next primary topic to analyze the spatial distribution o
 </p>
 
 Tornado activity follows a distinct spatial pattern shaped by atmospheric circulation and topography. Hotspots develop where warm, moist air from the Gulf of Mexico interacts with cooler, drier air and strong wind shear, while activity declines sharply in the western United States due to mountainous terrain and less favorable atmospheric conditions. Tornado intensity is classified using the Enhanced Fujita (EF) scale, which ranks events from EF0 (weakest) to EF5 (strongest) based on estimated wind speeds and damage.
+</p>
+
 * Dense clustering in Oklahoma, Kansas, Nebraska, and southeastern states (Mississippi, Alabama)
 * Minimal tornado presence in western states
 * EF0 - EF1 events are most numerous, while stronger events are more dispersed
