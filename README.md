@@ -164,21 +164,34 @@ $$\text{Healthcare Accessibility Score} = \begin{cases}
 <p align="center">
     <img src="warsaw_transport_map.png" alt="Public Transport Map Warsaw" width="600">
   <br>
+    <em>Figure 2.a</em>
 </p>
 
 <p align="center">
     <img src="warsaw_bus.png" alt="Bus Map Warsaw" width="600">
   <br>
+     <em>Figure 2.b</em>
 </p>
 
 <p align="center">
     <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
+    <br>
+<em>Figure 2.c</em>
   <br>
 </p>
 
 
 <p align="center">
     <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
+<br>
+    <em>Figure 2.d</em>
+  <br>
+</p>
+
+<p align="center">
+    <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="900">
+    <br>
+    <em>Figure 2.e</em>
   <br>
 </p>
 
@@ -241,11 +254,6 @@ $$\text{Transport Score} = \begin{cases}
 `CASE WHEN "access_index" <= 20 THEN 'Very Low' WHEN "access_index" <= 35 THEN 'Low' WHEN "access_index" <= 50 THEN 'Moderate' WHEN "access_index" <= 65 THEN 'High' ELSE 'Very High' END`
 </p>
 <br>
-
-<p align="center">
-    <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="900">
-  <br>
-</p>
 
 ## North American Biomes
 <p align="center">
