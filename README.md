@@ -328,7 +328,7 @@ I created this map to illustrate North America's principal biomes using Level I 
 </p>
 This map displays wildfire perimeters across multiple counties and states of the continental U.S. from 2020 to 2025, classified by incident type severity (Type 1 being most severe, Type 5 least severe). The visualization of this vector layer east-west disparity in wildfire activity, with states in the western coast experiencing significantly higher fire frequency and intensity. The distribution reflects regional differences in climate, vegetation, and fire management practices.
 <p>
-
+    
 * West Coast states (California, Oregon, Washington) and a few Rocky Mountain states show highest fire density
 * Texas' central and eastern region shows dense Type 5 activity (lowest severity fires)
 * Multiple Type 1 incidents (most severe) clustered in California, Montana, and New Mexico
@@ -341,21 +341,21 @@ This map displays wildfire perimeters across multiple counties and states of the
     <em>Figure 4.b</em>
 </p>
 The second map is centralized on wildfire perimeters across the state of Alaska from 2020 to 2025, also classified by incident type based on complexity. Data sourced from LANDFIRE and the National Interagency Fire Center reveals the spatial distribution and severity of fire activity across Alaska's diverse terrain. The pattern illustrates how wildfire risk concentrates in Alaska's boreal interior while remaining minimal in coastal and arctic regions.
-<br>
+<p>
     
 * Heavy concentration in central interior Alaska (boreal forest zone)
 * Dominance of Type 4 and Type 5 incidents (lower severity fires)
 * Absence of wildfire activity along northern coastal regions and southeastern panhandle
-<br>
 
+<br>
 <p align="center">
     <img src="fire_events.png" alt="Wildfire Events" width="500">
     <br>
     <em>Figure 4.c</em>
 </p>
 This chart quantifies wildfire frequency across U.S. states from 2020-2025, revealing significant variation in event counts. Texas emerges as an extreme outlier, recording more than six times the events of any other state.
-<br>
-
+<p>
+    
 * Texas dominates with 3,377 events (over six times second-place Alaska's 526)
 * Alaska's high count despite low population reflects vast boreal forest vulnerability
 * Western states cluster together (Arizona, Idaho, Montana, California) with 248-280 events each
@@ -366,8 +366,8 @@ This chart quantifies wildfire frequency across U.S. states from 2020-2025, reve
     <img src="fire_prop.png" alt="Wildfire Proportion" width="500">
     <br>
     <em>Figure 4.d</em>
-</p>
-This pie chart shows that a large majority. 89% of all U.S. wildfires fall into Type 5 (60%) or Type 4 (29%) categories. In contrast, the most severe fires, being Type 1 and Type 2, which demand extensive interagency coordination and heavy resource commitment, make up only 2.3% of incidents combined.
+<p>
+This pie chart shows that a large majority. 89% of all U.S. wildfires fall into Type 5 (60%) or Type 4 (29%) categories. In contrast, the most severe fires, being Type 1 and Type 2, which demand extensive interagency coordination and heavy resource commitment, make up only 2.3% of incidents combined. 
 <br>
 
 <p align="center">
@@ -375,12 +375,26 @@ This pie chart shows that a large majority. 89% of all U.S. wildfires fall into 
     <br>
     <em>Figure 4.e</em>
 </p>
+This chart quantifies total burned area from 2020-2025, revealing dramatic differences in individual fire size across states. California leads despite ranking sixth in event count. The values presented in this diagram are calculated by summing the surface area (in km²) of all wildfire polygons within each state to determine total burned area.
+<br>
+
+* California highest at 33,817 km² burned (despite only 248 events)
+* Alaska second with 23,127 km² from just 526 events (largest average fire size)
+* Texas's 3,377 events burned only 9,021 km² (smallest average fires)
+* Event count poorly predicts total burned area across states
+<br>
 
 <p align="center">
     <img src="fire_percentage.png" alt="Wildfire Percentage" width="500">
     <br>
     <em>Figure 4.f</em>
 </p>
+This chart normalizes wildfire impact by state size, quantified by taking the sum of all wildfire polygon areas per state and dividing it by the total state land area, which is then multiplied by 100 to express the value as a percentage.
+<br>
+
+* California (8.38%) and Oregon (8.05%) as the most proportionally affected
+* Pacific Northwest states (Washington and Idaho) come in secondary concern with 4.75 to 5.64% of land area burned
+* Florida's 3.62% represents an unexpected eastern presence
 
 ## Continental U.S. Tornadoes
 
@@ -465,7 +479,8 @@ This diagram interprets the distribution of only high-intensity tornadoes (EF3-E
     <em>Figure 5.f</em>
 </p>
 Tornado activity is dominated by low-intensity events, with EF0 and EF1 ratings accounting for the vast majority of occurrences. In contrast, EF2 and higher-intensity tornadoes are rare, highlighting the relative scarcity of the most severe storms in the overall dataset.
-     <br>
+</p>
+<br>
          
 <p align="center">
     <img src="tor_prop_2.png" alt="Tornado Donut 1" width="500">
