@@ -40,7 +40,6 @@ I developed this map to visualize the healthcare demand index. Population densit
 * Very high population density in central Lyon and multiple eastern communes
 * Large population circles concentrated in central zones
 * Sharp density and population drop from dark red core to northern and southern peripheries
-</p>
 <br>
 
 <p align="center">
@@ -54,7 +53,6 @@ Each pharmacy location is plotted as a point on the map using geocoded coordinat
 * Primary dense cluster in central Lyon with high coverage across urban and suburban areas
 * Gradual decrease in density moving outward
 * Sparse but present distribution in peripheral municipalities
-</p>
 <br>
 
 <p align="center">
@@ -69,7 +67,6 @@ General hospital locations are also mapped as point features using geocoded coor
 * Clustered distribution within the red metropolitan boundary
 * Limited facilities in peripheral zones
 * Multiple communes with complete absence of general hospitals
-</p>
 <br>
 
 <p align="center">
@@ -84,7 +81,6 @@ Pharmacy and hospital density layers are both calculated by dividing the number 
 * Hospital density reaches maximum (2.36 - 4.85 per 10km²) with sharper concentration
 * Concentric gradient pattern centered on Lyon's core
 * Six communes in total with absolute absence of pharmacies in the mid-northern region of the metropolitan area
-</p>
 <br>
 
 <p align="center">
@@ -173,10 +169,9 @@ This map displays Warsaw's rapid transit infrastructure, including two metro lin
 * Metro lines form a perpendicular cross pattern (north-south with M1, east-west with M2)
 * Rail lines extend to the furthest ends of peripheral districts, providing most coverage across the city
 
-</p>
 <br>
 <p align="center">
-    <img src="warsaw_bus.png" alt="Bus Map Warsaw" width="600">
+    <img src="warsaw_bus.png" alt="Bus Map Warsaw" width="700">
   <br>
      <em>Figure 2.b</em>
 </p>
@@ -187,7 +182,6 @@ This map illustrates the spatial distribution of all bus stops across Warsaw, re
 * Also highest concentration in central and southern districts
 * More dispersed coverage in peripheral eastern districts
 
-</p>
 <br>
 <p align="center">
      <img src="warsaw_stops_density.png" alt="Stops Density Comparison Warsaw" width="900">
@@ -203,10 +197,8 @@ This map illustrates the spatial distribution of all bus stops across Warsaw, re
 * South-eastern districts (Wilanów and Wawer) systematically underserved by rail-based transit modes
 
 <br>
-</p>
-
 <p align="center">
-    <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="600">
+    <img src="warsaw_demographics.png" alt="Demographics Warsaw" width="700">
 <br>
     <em>Figure 2.d</em>
 </p>
@@ -219,9 +211,8 @@ This map presents Warsaw's demographic landscape by combining population count (
 * Białołęka district show low density despite moderate population counts
 
 <br>
-  </p>
 <p align="center">
-    <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="900">
+    <img src="adequacy_transport_warsaw.png" alt="Transport Adequacy Warsaw" width="700">
     <br>
     <em>Figure 2.e</em>
   <br>
@@ -312,11 +303,10 @@ $$\text{Transport Score} = \begin{cases}
 
 ## North American Biomes
 <p align="center">
-    <img src="BIOMES_NA.PNG" alt="North America Biomes" width="600">
+    <img src="BIOMES_NA.PNG" alt="North America Biomes" width="800">
       <br>
     <em>Figure 3</em>
 </p>
-
 I created this map to illustrate North America's principal biomes using Level I Ecoregion data, providing environmental context for the continent's natural phenomena and demographic patterns. Biome boundaries are displayed alongside national administrative divisions (Canadian provinces, U.S. states, and Mexican estados), revealing the continent's diverse climatic and ecological zones. The distribution ranges from polar conditions in the far north to tropical forests in southern Mexico, with temperate, arid, and Mediterranean zones throughout.
 <p>
     
@@ -332,37 +322,62 @@ I created this map to illustrate North America's principal biomes using Level I 
 
 ## U.S. Wildfires
 <p align="center">
-    <img src="conus_wf.png" alt="CONUS Wildfires" width="600">
+    <img src="conus_wf.png" alt="CONUS Wildfires" width="750">
   <br>
     <em>Figure 4.a</em>
 </p>
+This map displays wildfire perimeters across multiple counties and states of the continental U.S. from 2020 to 2025, classified by incident type severity (Type 1 being most severe, Type 5 least severe). The visualization of this vector layer east-west disparity in wildfire activity, with states in the western coast experiencing significantly higher fire frequency and intensity. The distribution reflects regional differences in climate, vegetation, and fire management practices.
+<p>
 
+* West Coast states (California, Oregon, Washington) and a few Rocky Mountain states show highest fire density
+* Texas' central and eastern region shows dense Type 5 activity (lowest severity fires)
+* Multiple Type 1 incidents (most severe) clustered in California, Montana, and New Mexico
+* Lower frequency of incidents in eastern U.S., nearly with isolated incidents in the Appalachian region and Florida
+  
+<br>
 <p align="center">
-    <img src="alaska_wf.png" alt="Alaska Wildfires" width="600">
+    <img src="alaska_wf.png" alt="Alaska Wildfires" width="750">
   <br>
     <em>Figure 4.b</em>
 </p>
+The second map is centralized on wildfire perimeters across the state of Alaska from 2020 to 2025, also classified by incident type based on complexity. Data sourced from LANDFIRE and the National Interagency Fire Center reveals the spatial distribution and severity of fire activity across Alaska's diverse terrain. The pattern illustrates how wildfire risk concentrates in Alaska's boreal interior while remaining minimal in coastal and arctic regions.
+<br>
+    
+* Heavy concentration in central interior Alaska (boreal forest zone)
+* Dominance of Type 4 and Type 5 incidents (lower severity fires)
+* Absence of wildfire activity along northern coastal regions and southeastern panhandle
+<br>
 
 <p align="center">
-    <img src="fire_prop.png" alt="Wildfire Proportion" width="400">
+    <img src="fire_events.png" alt="Wildfire Events" width="500">
     <br>
     <em>Figure 4.c</em>
 </p>
+This chart quantifies wildfire frequency across U.S. states from 2020-2025, revealing significant variation in event counts. Texas emerges as an extreme outlier, recording more than six times the events of any other state.
+<br>
+
+* Texas dominates with 3,377 events (over six times second-place Alaska's 526)
+* Alaska's high count despite low population reflects vast boreal forest vulnerability
+* Western states cluster together (Arizona, Idaho, Montana, California) with 248-280 events each
+* Event frequency does not correlate with severity or total burned area
+<br>
 
 <p align="center">
-    <img src="fire_events.png" alt="Wildfire Events" width="400">
+    <img src="fire_prop.png" alt="Wildfire Proportion" width="500">
     <br>
     <em>Figure 4.d</em>
 </p>
+This pie chart shows that a large majority. 89% of all U.S. wildfires fall into Type 5 (60%) or Type 4 (29%) categories. In contrast, the most severe fires, being Type 1 and Type 2, which demand extensive interagency coordination and heavy resource commitment, make up only 2.3% of incidents combined.
+<br>
 
 <p align="center">
-    <img src="fire_surface.png" alt="Wildfire Surface" width="400">
+    <img src="fire_surface.png" alt="Wildfire Surface" width="500">
     <br>
     <em>Figure 4.e</em>
 </p>
 
 <p align="center">
-    <img src="fire_percentage.png" alt="Wildfire Percentage" width="400">
+    <img src="fire_percentage.png" alt="Wildfire Percentage" width="500">
     <br>
     <em>Figure 4.f</em>
 </p>
@@ -373,7 +388,7 @@ I chose tornadoes as my next primary topic to analyze the spatial distribution o
 
 <br>
 <p align="center">
-    <img src="tor_pts.PNG" alt="Tornado points" width="600">
+    <img src="tor_pts.PNG" alt="Tornado points" width="750">
   <br>
     <em>Figure 5.a</em>
 </p>
@@ -389,7 +404,7 @@ Tornado activity follows a distinct spatial pattern shaped by atmospheric circul
 <br>
 
 <p align="center">
-    <img src="tor_tracks.PNG" alt="Tornado Tracks" width="600">
+    <img src="tor_tracks.PNG" alt="Tornado Tracks" width="750">
   <br>
     <em>Figure 5.b</em>
 </p>
@@ -416,7 +431,7 @@ I created this kernel density map using kernel density estimation (KDE), incorpo
 * Small, localized clusters of low-level tornado density appear in parts of the western U.S.
 <br>
  <p align="center">
-    <img src="tor_bar_1.png" alt="Tornado Bar 1" width="400">
+    <img src="tor_bar_1.png" alt="Tornado Bar 1" width="500">
      <br>
     <em>Figure 5.d</em>
 </p>
@@ -431,32 +446,31 @@ This diagram ranks the ten U.S. states with the highest tornado activity over th
 <br>
 
 <p align="center">
-    <img src="tor_bar_2.png" alt="Tornado Bar 2" width="400">
+    <img src="tor_bar_2.png" alt="Tornado Bar 2" width="500">
     <br>
     <em>Figure 5.e</em>
 </p>
 This diagram interprets the distribution of only high-intensity tornadoes (EF3-EF5) across the United States, highlighting regional differences in severe tornado occurrence. State-level rankings were generated by filtering tornado event data in Microsoft Excel based on intensity and summing total events per state. Key observations include:
 </p>
 
-* Kansas and Texas recorded the highest number of high-intensity tornadoes, with 60 events each.
+* Kansas and Texas recorded the highest number of high-intensity tornadoes, with 50 events each.
 * Mississippi followed closely with 58 events.
 * Arkansas appears among the top ten with 27 events, despite not ranking among the states with the highest overall tornado counts.
 * Several states with high total tornado activity, including Illinois, Louisiana, and Florida, are absent from this high-intensity ranking.
 <br>
 
 <p align="center">
-    <img src="tor_prop_1.png" alt="Tornado Donut 1" width="400">
+    <img src="tor_prop_1.png" alt="Tornado Donut 1" width="500">
     <br>
     <em>Figure 5.f</em>
 </p>
 Tornado activity is dominated by low-intensity events, with EF0 and EF1 ratings accounting for the vast majority of occurrences. In contrast, EF2 and higher-intensity tornadoes are rare, highlighting the relative scarcity of the most severe storms in the overall dataset.
-     <p>
+     <br>
          
 <p align="center">
-    <img src="tor_prop_2.png" alt="Tornado Donut 1" width="400">
+    <img src="tor_prop_2.png" alt="Tornado Donut 1" width="500">
   <br>
-    <em>Figure 3.g</em>
+    <em>Figure 5.g</em>
 </p>
 Within high-intensity tornadoes, EF3 events dominate, while EF4 and EF5 occurrences are comparatively rare. This highlights that even among severe storms, the most extreme tornadoes are uncommon, making them critical points of study for risk assessment and mitigation.
-    </p>
 <br>
