@@ -300,7 +300,7 @@ $$\text{Transport Score} = \begin{cases}
 <div align="center">
     <code>CASE WHEN "access_index" <= 20 THEN 'Very Low' WHEN "access_index" <= 35 THEN 'Low' WHEN "access_index" <= 50 THEN 'Moderate' WHEN "access_index" <= 65 THEN 'High' ELSE 'Very High' END</code>
     </div>
-<br>
+<p>
 
 ## North American Biomes
 <p align="center">
@@ -321,7 +321,7 @@ I created this map to illustrate North America's principal biomes using Level I 
 * Hot, dry deserts in the Southwest
 * Southern Mexico with tropical wet-dry forests, temperate mountains, and semi-arid plateaus
 
-<br>
+<p>
 
 ## U.S. Wildfires
 <p align="center">
@@ -398,8 +398,7 @@ This chart normalizes wildfire impact by state size, quantified by taking the su
 * California (8.38%) and Oregon (8.05%) as the most proportionally affected
 * Pacific Northwest states (Washington and Idaho) come in secondary concern with 4.75 to 5.64% of land area burned
 * Florida's 3.62% represents an unexpected eastern presence
-
-<br>
+<p></p>
 
 ## Continental U.S. Tornadoes
 
