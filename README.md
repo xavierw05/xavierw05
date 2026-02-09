@@ -20,7 +20,7 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 ![🇮🇩 Indonesian](https://img.shields.io/badge/%F0%9F%87%AE%F0%9F%87%A9%20Indonesian-DA251D?style=for-the-badge)
 
 # 🗂️ Portfolio
-A personal collection of geospatial projects analyzing environmental and socio-economic disparities across territories, using maps and analytical diagrams to explore spatial patterns, global issues, and GIS methodologies.
+A personal collection of GIS projects analyzing socio-economic and environmental inequalities across various territories. My approaches include maps, analytical diagrams, and mathematical formulas as primary tools to explore and interpret interesting territorial patterns and global issues.
 ## Overview
 - [Lyon Healthcare Accessibility](#lyon-healthcare-accessibility)
 - [Warsaw Public Transport](#warsaw-public-transport)
