@@ -27,6 +27,7 @@ A personal collection of geospatial projects analyzing environmental and socio-e
 - [North American Biomes](#north-american-biomes)
 - [U.S. Wildfires](#us-wildfires) 
 - [Continental U.S. Tornadoes](#continental-us-tornadoes)
+<p>
 
 ## Lyon Healthcare Accessibility
 <p align="center">
@@ -320,6 +321,8 @@ I created this map to illustrate North America's principal biomes using Level I 
 * Hot, dry deserts in the Southwest
 * Southern Mexico with tropical wet-dry forests, temperate mountains, and semi-arid plateaus
 
+<br>
+
 ## U.S. Wildfires
 <p align="center">
     <img src="conus_wf.png" alt="CONUS Wildfires" width="750">
@@ -368,7 +371,7 @@ This chart quantifies wildfire frequency across U.S. states from 2020-2025, reve
     <em>Figure 4.d</em>
 <p>
 This pie chart shows that a large majority. 89% of all U.S. wildfires fall into Type 5 (60%) or Type 4 (29%) categories. In contrast, the most severe fires, being Type 1 and Type 2, which demand extensive interagency coordination and heavy resource commitment, make up only 2.3% of incidents combined. 
-<br>
+<p>
 
 <p align="center">
     <img src="fire_surface.png" alt="Wildfire Surface" width="500">
@@ -376,7 +379,7 @@ This pie chart shows that a large majority. 89% of all U.S. wildfires fall into 
     <em>Figure 4.e</em>
 </p>
 This chart quantifies total burned area from 2020-2025, revealing dramatic differences in individual fire size across states. California leads despite ranking sixth in event count. The values presented in this diagram are calculated by summing the surface area (in km²) of all wildfire polygons within each state to determine total burned area.
-<br>
+<p>
 
 * California highest at 33,817 km² burned (despite only 248 events)
 * Alaska second with 23,127 km² from just 526 events (largest average fire size)
@@ -390,11 +393,13 @@ This chart quantifies total burned area from 2020-2025, revealing dramatic diffe
     <em>Figure 4.f</em>
 </p>
 This chart normalizes wildfire impact by state size, quantified by taking the sum of all wildfire polygon areas per state and dividing it by the total state land area, which is then multiplied by 100 to express the value as a percentage.
-<br>
+<p>
 
 * California (8.38%) and Oregon (8.05%) as the most proportionally affected
 * Pacific Northwest states (Washington and Idaho) come in secondary concern with 4.75 to 5.64% of land area burned
 * Florida's 3.62% represents an unexpected eastern presence
+
+<br>
 
 ## Continental U.S. Tornadoes
 
