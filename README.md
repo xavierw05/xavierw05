@@ -21,6 +21,7 @@ My name is Xavier William, I am an Indonesian undergraduate student at the Unive
 A personal collection of GIS projects analyzing socio-economic and environmental inequalities across various territories. My approaches include maps, analytical diagrams, and mathematical formulas as primary tools to explore and interpret interesting territorial patterns and global issues.
 ## Overview
 - [Lyon Healthcare Accessibility](#lyon-healthcare-accessibility)
+- [Deforestation in Borneo Island](#deforestation-in-borneo-island) 
 - [Warsaw Public Transport](#warsaw-public-transport)
 - [North American Biomes](#north-american-biomes)
 - [U.S. Wildfires](#us-wildfires) 
@@ -154,6 +155,11 @@ $$\text{Healthcare Accessibility Score} = \begin{cases}
 <code>CASE WHEN "pharm_count" = 0 AND "hosp_count" = 0 THEN 'No Facilities' WHEN "access_index" <= 15 THEN 'Very Low' WHEN "access_index" <= 25 THEN 'Low' WHEN "access_index" <= 35 THEN 'Moderate' WHEN "access_index" <= 45 THEN 'High' ELSE 'Very High' END</code>
 </div>
 <br>
+
+## Deforestation in Borneo Island
+<p align="center">
+    <img src="borneo.png" alt="Borneo Deforestation" width="700">
+  <br>
 
 ## Warsaw Public Transport
 <p align="center">
